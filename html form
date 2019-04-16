@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <form action="checkk.js" ></form>
+<body style="background-color:powderblue;" >
+
+<h2 style="color:red;">User registration </h2>
+  
+    <label for="Name"><b>Name</b></label><br>
+    <input type="text" placeholder="Enter Name" name="name" required><br><br>
+    
+    <label for="Phone"><b>Phone no.</b></label><br>
+    <input type="text" placeholder="Enter number" name="number" required><br><br>
+
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required><br><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br><br>
+    
+
+  <input type="submit" value="Submit">
+    <button type="button">Cancel</button>
+</form> 
+
+
+
+</body>
+</html>
